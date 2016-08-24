@@ -1,0 +1,28 @@
+<div>
+  <a href="#banshee">Banshee</a>
+  <a href="#colossus">Colossus</a>
+  <a href="#nightcrawler">Nightcrawler</a>
+  <a ng-click="showing = !showing" href="#storm">Storm</a>
+  <a href="#sunfire">Sunfire</a>
+  <a href="#thunderbird">Thunderbird</a>
+  <a href="#wolverine">Wolverine</a>
+</div>
+
+<div ng-show="!showing">
+<h2>Storm</h2>
+<div class="flexcontainer">
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item">
+    <img src="../../imgs/storm.jpg" alt="Storm" class="xmenpic"  />
+  </div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+</div>
+<div ng-hide="checkShowing()">
+  <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+</div>
+<p>
+  Storm has the ability to control the weather and can fly. She is a member of the X-Men, a group of mutant heroes who fight for peace and equality between mutants and humans. Possessing natural leadership skills and some of the most formidable powers in her team, Storm has led the X-Men from time to time, and has also been a member of the Avengers and the Fantastic Four. As an adult, Storm married her fellow superhero Black Panther, and was by marriage made queen consort of the African nation of Wakanda, but lost this title when they divorced.
+</p>
+</div>

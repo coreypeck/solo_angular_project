@@ -1,0 +1,26 @@
+<div>
+    <a href="#angel">Angel</a>
+    <a ng-click="showing = !showing" href="#beast">Beast</a>
+    <a href="#cyclops">Cyclops</a>
+    <a href="#iceman">Iceman</a>
+    <a href="#marvelgirl">Marvel Girl</a>
+    <a href="#profx">Professor X</a>
+</div>
+
+<div ng-show="!showing">
+  <h2>Beast</h2>
+  <div class="flexcontainer">
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+    <div class="flex-item">
+      <img src="../../imgs/beast.jpeg" alt="Beast" class="xmenpic"/>
+    </div>
+    <div class="flex-item"></div>
+    <div class="flex-item"></div>
+  </div>
+  <div ng-hide="checkShowing()">
+    <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+  </div>
+<p>
+Originally called "The Beast", the character was introduced as a mutant possessing ape-like superhuman physical strength and agility, oversize hands and feet, a genius-level intellect, and an otherwise normal appearance. Eventually being referred to simply as "Beast", Hank McCoy underwent progressive physiological transformations, permanently gaining animalistic physical characteristics. These include blue fur, both simian and feline facial features, pointed ears, fangs, and claws. Beast's physical strength and senses increased to even greater levels.</p>
+</div>

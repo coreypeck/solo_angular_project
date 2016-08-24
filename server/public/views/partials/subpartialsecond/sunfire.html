@@ -1,0 +1,28 @@
+<div>
+  <a href="#banshee">Banshee</a>
+  <a href="#colossus">Colossus</a>
+  <a href="#nightcrawler">Nightcrawler</a>
+  <a href="#storm">Storm</a>
+  <a ng-click="showing = !showing" href="#sunfire">Sunfire</a>
+  <a href="#thunderbird">Thunderbird</a>
+  <a href="#wolverine">Wolverine</a>
+</div>
+
+<div ng-show="!showing">
+<h2>Sunfire</h2>
+<div class="flexcontainer">
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item">
+    <img src="../../imgs/sunfire.png" alt="Sunfire" class="xmenpic"  />
+  </div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+</div>
+<div ng-hide="checkShowing()">
+  <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+</div>
+<p>
+  Sunfire is a temperamental and arrogant Japanese mutant who can generate superheated plasma and fly. Not suited for teamwork, Sunfire was only briefly a member of the X-Men and has kept limited ties to the team since. He has had some presence in the greater Marvel Universe.
+</p>
+</div>

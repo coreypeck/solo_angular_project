@@ -1,0 +1,46 @@
+body {
+    width: 500px;
+    border: 2px solid black;
+}
+div {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p{
+  margin: 10px 5px 10px 5px;;
+}
+#hero-menu {
+    margin-bottom: 15px;
+}
+.flexcontainer {
+    display: flex;
+    width: 500px;
+    height: 100px;
+}
+.flex-item {
+    background-color: MidnightBlue;
+    width: 100px;
+    height: 104px;
+}
+.xmenpic {
+    height: 100px;
+    width: 75;
+    background-color: white;
+    border: 2px solid gold;
+    /*margin: 0 212.5px 0 212.5px;*/
+}
+.xmenlogo{
+  margin-top: 10px;
+  background-color: MidnightBlue;
+    height:200px;
+    width:500px;
+}
+/*, gold, black, DarkRed, */

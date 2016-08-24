@@ -1,0 +1,27 @@
+<div>
+    <a href="#angel">Angel</a>
+    <a href="#beast">Beast</a>
+    <a ng-click="showing = !showing" href="#cyclops">Cyclops</a>
+    <a href="#iceman">Iceman</a>
+    <a href="#marvelgirl">Marvel Girl</a>
+    <a href="#profx">Professor X</a>
+</div>
+
+<div ng-show="!showing">
+<h2>Cyclops</h2>
+<div class="flexcontainer">
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item">
+    <img src="../../imgs/cyclops.jpg" alt="Cyclops" class="xmenpic" />
+  </div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+</div>
+<div ng-hide="checkShowing()">
+  <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+</div>
+<p>
+Cyclops can emit powerful beams of energy from his eyes. He cannot control the beams without the aid of special eyewear which he must wear at all times. He is typically considered the first of the X-Men,[1] a team of mutant heroes who fight for peace and equality between mutants and humans, and one of the team's primary leaders.
+</p>
+</div>

@@ -1,0 +1,27 @@
+<div>
+    <a href="#angel">Angel</a>
+    <a href="#beast">Beast</a>
+    <a href="#cyclops">Cyclops</a>
+    <a ng-click="showing = !showing" href="#iceman">Iceman</a>
+    <a href="#marvelgirl">Marvel Girl</a>
+    <a href="#profx">Professor X</a>
+</div>
+
+<div ng-show="!showing">
+<h2>Iceman</h2>
+<div class="flexcontainer">
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item">
+    <img src="../../imgs/iceman.jpg" alt="Iceman" class="xmenpic" />
+  </div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+</div>
+<div ng-hide="checkShowing()">
+  <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+</div>
+<p>
+  He has the ability to manipulate ice and cold by freezing water vapor around him. This allows him to freeze objects, as well as turn his body into ice.
+</p>
+</div>

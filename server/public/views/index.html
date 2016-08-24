@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <title>Angular Routing</title>
+    <script type="text/javascript" src="/vendor/angular.min.js"></script>
+    <script type="text/javascript" src="/vendor/angular-route.min.js"></script>
+    <script type="text/javascript" src="/scripts/client-app.js"></script>
+    <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  </head>
+  <body>
+  <p>
+    <h1><a href="/views/index.html">Home</a></h1>
+
+    <div ng-include="'/views/partials/nav.html'"></div>
+    <!-- Where the Angular Routes Hijack the HTML -->
+    <main ng-view></main>
+<div>
+  <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+</div>
+  </p>
+  </body>
+</html>

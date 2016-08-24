@@ -1,0 +1,27 @@
+<div>
+    <a href="#angel">Angel</a>
+    <a href="#beast">Beast</a>
+    <a href="#cyclops">Cyclops</a>
+    <a href="#iceman">Iceman</a>
+    <a href="#marvelgirl">Marvel Girl</a>
+    <a ng-click="showing = !showing" href="#profx">Professor X</a>
+</div>
+
+<div ng-show="!showing">
+<h2>Professor Xavier</h2>
+<div class="flexcontainer">
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+  <div class="flex-item">
+    <img src="../../imgs/Profx.jpg" alt="Professor Xavier" class="xmenpic"/>
+  </div>
+  <div class="flex-item"></div>
+  <div class="flex-item"></div>
+</div>
+<div ng-hide="checkShowing()">
+  <img src="../../imgs/xmenlogo.png" alt="X-Men Logo" class="xmenlogo" />
+</div>
+<p>
+  The founder of the X-Men, he himself is an exceptionally powerful telepath who can read and control minds of others. While running a private school in Westchester County, New York to both shelter and train mutants from around the globe, Xavier also fights to serve the greater good by promoting peaceful coexistence and equality between humans and mutants in a world where often zealous anti-mutant bigotry is widespread.
+</p>
+</div>
