@@ -1,14 +1,25 @@
 body {
+  padding: 0;
+  background-color: silver;
     width: 500px;
     border: 2px solid black;
+}
+a {
+  text-decoration: none;
+  color: white;
 }
 div {
     text-align: center;
 }
 h1 {
+  margin: 0;
+  background-color: DarkRed;
     text-align: center;
 }
 h2 {
+  margin: 0;
+  color: white;
+  background-color: DarkRed;
     text-align: center;
 }
 h3 {
@@ -17,8 +28,18 @@ h3 {
 p{
   margin: 10px 5px 10px 5px;;
 }
+span{
+  color: white;
+}
 #hero-menu {
-    margin-bottom: 15px;
+  margin: 0;
+    padding: 15px;
+    background: linear-gradient(to right, black, MidnightBlue);
+}
+#logohome{
+  /*margin: 10px 10px 0px 10px;*/
+  background-color: MidnightBlue;
+  border: 5px solid DarkRed
 }
 .flexcontainer {
     display: flex;
@@ -30,6 +51,9 @@ p{
     width: 100px;
     height: 104px;
 }
+.heros{
+  background: linear-gradient(to right, black, MidnightBlue);
+}
 .xmenpic {
     height: 100px;
     width: 75;
@@ -38,9 +62,8 @@ p{
     /*margin: 0 212.5px 0 212.5px;*/
 }
 .xmenlogo{
-  margin-top: 10px;
-  background-color: MidnightBlue;
+  margin-top: 5px;
     height:200px;
-    width:500px;
+    width:440px;
 }
-/*, gold, black, DarkRed, */
+/*, , black, DarkRed, */
